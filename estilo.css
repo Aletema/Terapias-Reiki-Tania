@@ -2,14 +2,24 @@
     padding: 0;
     margin: 0;
 }
-
+/*-----------------------------------------Inicio Media Queri---------------------------------*/
+@media  screen and (max-width: 375px) {
+    .logo{
+    text-align: center; 
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+}
+/*-----------------------------------------Fin Media Queri---------------------------------*/
 .logo {
     text-align: left;
 }
 
 .logo img {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
 }
 
 .rosa {
@@ -43,7 +53,6 @@
 }
 
 /*Inicio Propiedades del body*/
-
 
 h1 {
     text-align: center;
@@ -80,6 +89,7 @@ header {
     z-index: 100;
     height: 100px;
     text-align: center;
+    background-color: pink;
 }
 
 header .boton_desplegable {
@@ -128,11 +138,6 @@ li a:hover {
     border-radius: 10px;
 }
 
-/*Inicio Bloque de Nav*/
-
-
-
-/*Fin bloque Nav*/
 /*Inicio Propiedades del main*/
 .imagen {
     border-radius: 20px;
@@ -154,7 +159,7 @@ li a:hover {
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
-   
+
     flex-direction: row;
     background-color: #2e518b;
     margin-top: 40px;
@@ -235,7 +240,19 @@ fieldset {
     z-index: 100;
     margin-top: 13px;
 }
-
+.wattsapp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    left: 40px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: auto;
+    font-size: 30px;
+    z-index: 100;
+    margin-top: 13px;
+}
 .parrafo_grande {
     font-size: 50PX;
     color: #ffffff;
