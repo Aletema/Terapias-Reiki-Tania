@@ -253,6 +253,9 @@ fieldset {
     z-index: 100;
     margin-top: 13px;
 }
+.wattsapp :hover{
+   transform: rotate(2);
+}
 .parrafo_grande {
     font-size: 50PX;
     color: #ffffff;
