@@ -3,7 +3,7 @@
     margin: 0;
 }
 /*-----------------------------------------Inicio Media Queri---------------------------------*/
-@media  screen and (max-width: 375px) {
+@media  screen and (min-width: 375px) {
     .logo{
     text-align: center; 
 }
@@ -199,6 +199,7 @@ li a:hover {
     text-align: center;
     width: auto;
 }
+
 /*Fin form*/
 
 .volver {
