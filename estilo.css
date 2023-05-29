@@ -141,7 +141,14 @@ li a:hover {
     background-color: #00A4BD;
     border-radius: 10px;
 }
-
+.centrar_boton .boton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 375px;
+    margin-top: 50px;
+    text-decoration: none;
+}
 /*Inicio Propiedades del main*/
 .imagen {
     border-radius: 20px;
