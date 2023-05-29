@@ -192,8 +192,7 @@ li a:hover {
 /*Fin Propiedades del main*/
 /*Inicio form*/
 
-
-form {
+/*form {
     max-width: auto;
     margin-left: auto;
 }
@@ -224,9 +223,14 @@ input[type="submit"] {
 
 fieldset {
     padding: 20px 40px;
-}
+}*/
+
 
 /*Fin form*/
+.formulario{
+    text-align: center;
+    width: auto;
+}
 .volver {
     position: fixed;
     width: 50px;
