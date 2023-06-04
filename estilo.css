@@ -3,7 +3,11 @@
     margin: 0;
 }
 /*-----------------------------------------Inicio Media Queri---------------------------------*/
-@media  screen and (min-width: 375px) {
+* {
+    padding: 0;
+    margin: 0;
+}
+@media  screen and (max-width: 425px) {
     .logo{
     text-align: center; 
 }
@@ -60,7 +64,7 @@ h1{
 h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 50px;
+    margin-top: 100px;
     padding-top: 20px;
 }
 
@@ -110,6 +114,7 @@ header .boton_desplegable {
     text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
+    margin-top: 20px;
 }
 
 .boton_contenido {
@@ -145,10 +150,39 @@ li a:hover {
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 375px;
+    width:100%;
     margin-top: 50px;
+    margin-left: 5px;
     text-decoration: none;
+
+    
 }
+.centrar_boton .boton {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+   }
+   @-webkit-keyframes flash {
+    0%, 50%, 100% {
+    opacity: 1;
+    }
+   25%, 75% {
+    opacity: 0;
+    }
+   }
+   @keyframes flash {
+    0%, 50%, 100% {
+    opacity: 1;
+    }
+   25%, 75% {
+    opacity: 0;
+    }
+   }
+   .flash {
+    -webkit-animation-name: flash;
+    animation-name: flash;
+   }
 /*Inicio Propiedades del main*/
 .imagen {
     border-radius: 20px;
