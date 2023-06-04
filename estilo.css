@@ -2,23 +2,28 @@
     padding: 0;
     margin: 0;
 }
+
 /*-----------------------------------------Inicio Media Queri---------------------------------*/
 * {
     padding: 0;
     margin: 0;
 }
-@media  screen and (max-width: 425px) {
-    .logo{
-    text-align: center; 
+
+@media screen and (max-width: 425px) {
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    h1 {
+        margin-top: 20px;
+    }
 }
-.logo img {
-    height: 100px;
-    width: 100px;
-}
-h1{
-    margin-top: 20px;
-}
-}
+
 /*-----------------------------------------Fin Media Queri---------------------------------*/
 .logo {
     text-align: left;
@@ -146,43 +151,18 @@ li a:hover {
     background-color: #00A4BD;
     border-radius: 10px;
 }
-.centrar_boton .boton{
+
+.centrar_boton .boton {
     display: flex;
     justify-content: center;
     text-align: center;
-    width:100%;
+    width: 100%;
     margin-top: 50px;
-    margin-left: 5px;
     text-decoration: none;
-
-    
+    background-color: #1FA67A;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.centrar_boton .boton {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-   }
-   @-webkit-keyframes flash {
-    0%, 50%, 100% {
-    opacity: 1;
-    }
-   25%, 75% {
-    opacity: 0;
-    }
-   }
-   @keyframes flash {
-    0%, 50%, 100% {
-    opacity: 1;
-    }
-   25%, 75% {
-    opacity: 0;
-    }
-   }
-   .flash {
-    -webkit-animation-name: flash;
-    animation-name: flash;
-   }
+
 /*Inicio Propiedades del main*/
 .imagen {
     border-radius: 20px;
@@ -236,9 +216,10 @@ li a:hover {
 
 /*Fin Propiedades del main*/
 /*Inicio form*/
-.formulario{
+.formulario {
     text-align: center;
     width: auto;
+    background-color: #1FA67A;
 }
 
 /*Fin form*/
@@ -256,7 +237,8 @@ li a:hover {
     z-index: 100;
     margin-top: 13px;
 }
-.wattsapp{
+
+.wattsapp {
     position: fixed;
     width: 50px;
     height: 50px;
@@ -269,9 +251,11 @@ li a:hover {
     z-index: 100;
     margin-top: 13px;
 }
-.wattsapp :hover{
-   transform: scale(2);
+
+.wattsapp :hover {
+    transform: scale(2);
 }
+
 .parrafo_grande {
     font-size: 50PX;
     color: #ffffff;
