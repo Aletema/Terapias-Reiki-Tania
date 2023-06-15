@@ -4,25 +4,7 @@
 }
 
 /*-----------------------------------------Inicio Media Queri---------------------------------*/
-* {
-    padding: 0;
-    margin: 0;
-}
 
-@media screen and (max-width: 425px) {
-    .logo {
-        text-align: center;
-    }
-
-    .logo img {
-        height: 100px;
-        width: 100px;
-    }
-
-    h1 {
-        margin-top: 20px;
-    }
-}
 
 /*-----------------------------------------Fin Media Queri---------------------------------*/
 .logo {
@@ -37,6 +19,7 @@
 .rosa {
     background-color: palevioletred;
     border-radius: 20px;
+    height: auto;
 }
 
 .violeta {
@@ -94,6 +77,7 @@ p {
     height: auto;
     border-radius: 10px;
     padding-left: 20px;
+    margin-top: 10px;
 }
 
 /*Fin Propiedades del body*/
@@ -152,13 +136,13 @@ li a:hover {
     border-radius: 10px;
 }
 
-.centrar_boton .boton {
+.centrar_boton button {
+   
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-decoration: none;
     width: 100%;
     margin-top: 50px;
-    text-decoration: none;
     background-color: #1FA67A;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -254,37 +238,6 @@ li a:hover {
 
 .wattsapp :hover {
     transform: scale(2);
-}
-
-.parrafo_grande {
-    font-size: 50PX;
-    color: #ffffff;
-}
-
-.body_parrafo {
-    background-color: black;
-}
-
-.volverp a {
-    text-align: start;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-.volver_siguiente {
-    display: block;
-    margin-top: 50px;
-
-}
-
-.volver_siguiente a {
-    margin-left: 50px;
-    font-size: 25px;
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: blue;
-    border-radius: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 footer {
