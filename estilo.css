@@ -81,15 +81,9 @@ p {
    
 }
 .p2{
-    background-color: palevioletred;
+    background: none;
 }
-.p3{
-    background-color: violet;
-}
-.p4{
-    background-color:#2e518b ;
-}
-
+       
 /*Fin Propiedades del body*/
 header {
     width: 100%;
