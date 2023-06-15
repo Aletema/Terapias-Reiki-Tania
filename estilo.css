@@ -77,7 +77,8 @@ p {
     height: auto;
     border-radius: 10px;
     padding-left: 20px;
-    margin-top: 10px;
+   font-size: 15px;
+    
 }
 
 /*Fin Propiedades del body*/
