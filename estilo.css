@@ -8,12 +8,12 @@
 
 /*-----------------------------------------Fin Media Queri---------------------------------*/
 .logo {
-    text-align: left;
+    text-align: center;
 }
 
 .logo img {
-    height: 70px;
-    width: 70px;
+    height: 200px;
+    width: 200px;
 }
 
 .rosa {
@@ -96,7 +96,7 @@ p {
 header {
     width: 100%;
     z-index: 100;
-    height: 100px;
+    height: 215px;
     text-align: center;
     background-color: pink;
 }
