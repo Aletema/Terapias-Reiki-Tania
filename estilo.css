@@ -12,8 +12,8 @@
 }
 
 .logo img {
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
 }
 
 .rosa {
@@ -33,12 +33,13 @@
 }
 
 .verde {
-    background-color: greenyellow;
+    background-color:
+        #1FA67A;
     border-radius: 20px;
 }
 
 .amarillo {
-    background-color: yellow;
+    background-color: yellowgreen;
     border-radius: 20px;
 }
 
@@ -52,8 +53,15 @@
 h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 100px;
+    margin-top: 25px;
     padding-top: 20px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 30px;
+    color: pink;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+
 }
 
 h2 {
@@ -68,37 +76,49 @@ h6 {
     font-size: 20px;
     color: #FFFFFF;
 }
-h5{
-    color: black;
+
+h5 {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 30px;
+    color: pink;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+
 }
+
 p {
     color: white;
-    background-color: black;
+
     width: auto;
     height: auto;
     border-radius: 5px;
     padding-left: 20px;
-   font-size: 15px;
-   
+    font-size: 15px;
+
 }
-.p2{
+
+.p2 {
     background: none;
 }
-.blak{
+
+.blak {
     color: black;
 }
-.tamañoG{
-    font-size: 25px;
+
+.tamañoG {
+    font-size: 15px;
 }
-       
+
 /*Fin Propiedades del body*/
 header {
     width: 100%;
     z-index: 100;
-    height: 215px;
+    height: 75px;
     text-align: center;
-    background-color: plum;
+
 }
 
 header .boton_desplegable {
@@ -106,25 +126,33 @@ header .boton_desplegable {
     position: relative;
 }
 
+.novedades {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.imagenTitulo {
+    background-color: #F3D5C4;
+
+}
+
+.tamaño-imagen {
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+
 .boton {
-    border: 1px solid #2e518b;
+    border: 2px solid #2e518b;
     padding: 10px;
-    background-color: #2e518b;
-    color: #ffffff;
+    background-color: pink;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
     margin-top: 20px;
-}
-
-.boton_contenido {
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    background-color: black;
-    border-radius: 10px;
 }
 
 li a:hover {
@@ -133,11 +161,12 @@ li a:hover {
 
 .boton_desplegable:hover .boton_contenido {
     display: block;
+
 }
 
 .boton_contenido a {
     display: block;
-    color: white;
+    color: #2e518b;
     padding: 20px;
     text-decoration: none;
 }
@@ -149,7 +178,7 @@ li a:hover {
 }
 
 .centrar_boton button {
-   
+
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -215,7 +244,8 @@ li a:hover {
 .formulario {
     text-align: center;
     width: auto;
-    background-color: #1FA67A;
+    background-color: pink;
+    margin-top: 50px;
 }
 
 /*Fin form*/
