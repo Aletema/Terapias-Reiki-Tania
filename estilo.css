@@ -138,11 +138,14 @@ header .boton_desplegable {
 }
 
 .tamaño-imagen {
-    text-align: center;
+display: block;
     height: 500px;
     width: 500px;
 }
-
+.centrar {
+    display: flex;
+    justify-content: center;
+}
 .boton {
     border: 2px solid #2e518b;
     padding: 10px;
@@ -153,6 +156,7 @@ header .boton_desplegable {
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
     margin-top: 20px;
+   
 }
 
 li a:hover {
