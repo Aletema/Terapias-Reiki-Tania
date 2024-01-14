@@ -74,7 +74,7 @@ h2 {
 h6 {
     text-align: center;
     font-size: 20px;
-    color: #FFFFFF;
+    color:white;
 }
 
 h5 {
@@ -87,6 +87,11 @@ h5 {
     color: pink;
     text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
 
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    color:#1FA67A; 
 }
 
 p {
@@ -106,6 +111,7 @@ p {
 
 .blak {
     color: black;
+    font-size: 25px;
 }
 
 .tamañoG {
@@ -138,14 +144,16 @@ header .boton_desplegable {
 }
 
 .tamaño-imagen {
-display: block;
+    display: block;
     height: 500px;
     width: 500px;
 }
+
 .centrar {
     display: flex;
     justify-content: center;
 }
+
 .boton {
     border: 2px solid #2e518b;
     padding: 10px;
@@ -156,17 +164,17 @@ display: block;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
     margin-top: 20px;
-   
-}
-
-li a:hover {
-    color: pink;
-}
-
-.boton_desplegable:hover .boton_contenido {
-    display: block;
 
 }
+
+section .tamaño_boton {
+    width: 100%;
+}
+
+.tamaño_logo_neocita {
+    margin-top: 30px;
+    text-align: center;
+   }
 
 .boton_contenido a {
     display: block;
