@@ -74,7 +74,7 @@ h2 {
 h6 {
     text-align: center;
     font-size: 20px;
-    color:white;
+    color: white;
 }
 
 h5 {
@@ -88,10 +88,11 @@ h5 {
     text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
 
 }
-h4{
+
+h4 {
     text-align: center;
     font-size: 25px;
-    color:#1FA67A; 
+    color: #1FA67A;
 }
 
 p {
@@ -154,12 +155,12 @@ header .boton_desplegable {
     justify-content: center;
 }
 
-.boton {
+ .boton {
+    text-decoration: none;
     border: 2px solid #2e518b;
     padding: 10px;
     background-color: pink;
     color: white;
-    text-decoration: none;
     text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
@@ -174,7 +175,7 @@ section .tamaño_boton {
 .tamaño_logo_neocita {
     margin-top: 30px;
     text-align: center;
-   }
+}
 
 .boton_contenido a {
     display: block;
